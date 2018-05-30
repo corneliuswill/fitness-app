@@ -1,0 +1,38 @@
+.workout-plan {
+    width: 100%;
+}
+
+.workout-plan .date {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.workout-list {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: left;
+    list-style-type: none;
+}
+
+.workout-list li {
+    color: #333;
+    background-color: #FFF;
+    height: 48px;
+    line-height: 48px;
+    margin: 2px 0;
+    border-radius: 4px;
+    padding: 0 8px;
+    opacity: 0.5;
+}
+
+.workout-list a {
+    color: #333;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.add-icon a {
+    color: #FFF;
+    text-decoration: none;
+}

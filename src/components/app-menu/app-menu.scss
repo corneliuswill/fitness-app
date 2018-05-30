@@ -1,0 +1,22 @@
+nav.menu {
+    z-index: 1000;
+    position: absolute;
+    width: 300px;
+    min-height: calc(100vh - 64px);
+    background-color: #000;
+    top: 64px;
+    left: -300px;
+    transition: .3s all;
+}
+
+nav.menu > a {
+    color: #FFF;
+    display: block;
+    padding: 5px;
+    margin: 15px 0 0px 20px;
+    text-transform: uppercase;
+}
+
+.menu-visible {
+  left: 0!important;
+}

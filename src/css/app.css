@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li
+body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #620057;
+  color: #FFF; }
+
+@media (min-width: 576px) {
+  body {
+    background-color: #48003F; } }
+
+@media (min-width: 768px) {
+  body {
+    background-color: #E5853A; } }
+
+@media (min-width: 992px) {
+  body {
+    background-color: #EA0000; } }
+
+@media (min-width: 1200px) {
+  body {
+    background-color: #B60000; } }
