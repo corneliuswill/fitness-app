@@ -11,7 +11,7 @@ export default class WorkoutPlan extends Component {
     }
 
     renderWorkouts() {
-        return _.map(this.state.workouts, (workout, index) => <li key={index}><a href="#" className="workout-item">{workout}</a></li>);
+        return _.map(this.state.workouts, (workout, index) => <li key={index}><a href="/" className="workout-item">{workout}</a></li>);
     }
 
     renderAddForm = () => {

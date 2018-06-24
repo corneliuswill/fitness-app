@@ -7,7 +7,7 @@ const AppHeader = (props) => {
         <div className="app-header">
             <MenuIcon menu="app-menu"/>
             <div className="title">{props.title}</div>
-            <div className="add-icon"><a href="#"><i class="material-icons">add</i></a></div>
+            <div className="add-icon"><a href="/"><i class="material-icons">add</i></a></div>
         </div>
     )
 }
