@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <AppHeader title="Workout Planner"/>
+        <AppHeader title="React Fitness app"/>
         <AppMenu/>
         <div className="container-fluid">
           <div className="row">
