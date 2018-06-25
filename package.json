@@ -1,5 +1,6 @@
 {
   "name": "fitness-app-prototype",
+  "description": "A Fitness App Prototype built in React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,5 +31,10 @@
     "wdio-dot-reporter": "0.0.9",
     "wdio-mocha-framework": "^0.6.1",
     "webdriverio": "^4.13.0"
-  }
+  },
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/corneliuswill/react-fitness-app.git"
+  },
+  "license": ""
 }
