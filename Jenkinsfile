@@ -26,10 +26,5 @@ pipeline {
                 sh './jenkins/scripts/kill.sh'
             }
         }
-        stage('WebDriver') {
-            steps {
-                sh 'wdio'
-            }
-        }        
     }
 }

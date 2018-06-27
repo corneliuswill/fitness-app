@@ -4,29 +4,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "lodash": "^4.17.10",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "start-js": "react-scripts start",
-    "start": "npm-run-all -p watch-css start-js",
-    "build-js": "react-scripts build",
-    "build": "npm-run-all build-css build-js",
-    "test": "mocha test/**/*.js",
-    "selenium": "./selenium/start-server.sh",
-    "wdio": "wdio wdio.conf.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
-    "wdio-dot-reporter": "0.0.9",
-    "wdio-mocha-framework": "^0.6.1",
-    "webdriverio": "^4.13.0"
   },
   "repository": {
     "type": "Git",

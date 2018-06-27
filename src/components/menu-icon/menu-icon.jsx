@@ -7,7 +7,6 @@ export default class MenuIcon extends Component {
         const menu = document.getElementById(this.props.menu);
         menuIcon.classList.toggle("change");
         menu.classList.toggle("menu-visible");
-
     }
 
     render() {
